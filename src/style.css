@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #FFF;
+}
+
+.l-sample {
+  position: absolute;
+  top: 10vw;
+  left: 10vw;
+
+  perspective: 80vw;
+  transform-style: preserve-3d;
+}
+
+.l-sample > img {
+  width: 30vw;
+}
